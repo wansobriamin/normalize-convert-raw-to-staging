@@ -27,16 +27,6 @@ Data spesifikasi hardware dari berbagai sumber web seringkali memiliki format pe
 > | **convert** | [`convert`](https://github.com/wansobriamin/normalize-convert-raw-to-staging) | Skor mentah → `gpu_index`/`cpu_index` (CSV staging) |
 > | **build** | [`build`](https://github.com/wansobriamin/build-csv-to-json-benchmark-device) | mengubah data CSV staging menjadi file database `.json`  |
 
-## CLI
-
-Jalankan dari root backend
-
-```bash
-python -m convert.normalize_soc
-python -m convert.normalize_pc 
-
-```
-
 ## Workflow
 
 ```text
