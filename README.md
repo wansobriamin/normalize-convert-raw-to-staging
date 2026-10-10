@@ -27,7 +27,7 @@ Data spesifikasi hardware dari berbagai sumber web seringkali memiliki format pe
 > | **convert** | [`convert`](https://github.com/wansobriamin/normalize-convert-raw-to-staging) | Skor mentah → `gpu_index`/`cpu_index` (CSV staging) |
 > | **build** | [`build`](https://github.com/wansobriamin/build-csv-to-json-benchmark-device) | mengubah data CSV staging menjadi file database `.json`  |
 
-## Cara Kerja (Workflow)
+## Workflow
 
 ```text
 [ Sumber Data (web benchmark device) ]
@@ -47,7 +47,7 @@ Data spesifikasi hardware dari berbagai sumber web seringkali memiliki format pe
                   │
                   ▼
       4. LOAD (Staging Database)
-         Export ke JSON/CSV bersih
+         Export ke CSV bersih
 ```
 ---
 
