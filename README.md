@@ -25,7 +25,7 @@ Data spesifikasi hardware dari berbagai sumber web seringkali memiliki format pe
 > |---|---|---|
 > | **scraper** (ini) | [`Scraper`](https://github.com/wansobriamin/scraper-data-gpu-cpu-soc) | Scrape benchmark mentah |
 > | **convert** | [`convert`](https://github.com/wansobriamin/normalize-convert-raw-to-staging) | Skor mentah → `gpu_index`/`cpu_index` (CSV staging) |
-> | **build** | [`build`](https://github.com/<USERNAME>/shaderbench-build) | Kalibrasi beban shader + QC 3 lapis → DB final |
+> | **build** | [`build`](https://github.com/<USERNAME>/shaderbench-build) | mengubah data CSV staging menjadi file database `.json`  |
 
 ## Cara Kerja (Workflow)
 
